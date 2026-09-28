@@ -1,10 +1,10 @@
 from src.math_operation import add, subtract
-def assert_addition():
+def test_addition():
     assert add(2, 3) == 5
     assert add(-1, 1) == 0
     assert add(0, 0) == 0
 
-def assert_subtraction():
+def test_subtraction():
     assert subtract(5, 3) == 2
     assert subtract(1, 1) == 0
     assert subtract(0, 0) == 0
